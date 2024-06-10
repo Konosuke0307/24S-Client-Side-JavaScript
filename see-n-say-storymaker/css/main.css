@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+
+
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body  */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(72, 56, 56) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a3b5f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#speakButton {
+    margin-top: 20px;
+    background-color: #1c4c27;
+}
+
+#speakButton:hover {
+    background-color: #218838;
+}
